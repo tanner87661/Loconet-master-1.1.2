@@ -48,7 +48,7 @@
  * NOTE: THIS IS ONLY DONE FOR THE ARDUINO UNO SO FAR. NEEDS TO BE ADDED FOR THE DUE AND THE ATTINY BOARDS IF YOU WANT TO WORK WITH THEM
  * changed the definition of the SET_TX macros in ln_sw_uart.h line 48 following to use correct bit levels depending on inverse / non-inverse transmit. Interestingly the prior version only supported a configuration for non-NPN output, but it was not supported in the code ;-)
  * 
-
+*/
 
 // jmp
 // figure out what board we are building for
